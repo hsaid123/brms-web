@@ -1,0 +1,32 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Insurance Policy Calculator</title>
+</head>
+<body>
+<h1>Enter the information to get the price quote for your vehicle</h1>
+<br><br>
+
+<form method="POSt" action="http://localhost:8080/simple-brms-webapp/SimpleBrmsServlet">
+ Driver Age <input name="age" value=""/><br><br>
+ 
+ Number Of Accidents: <input name="accidents" value=""/><br><br>
+ 
+ Number Of Tickets: <input name="tickets" value=""/><br><br>
+ 
+ Credit Score: <input name="score" value=""/><br><br>
+ 
+ Vehicle Year: <input name="vehicleYear" value=""/><br><br>
+ 
+ Policy Type: <select name="policyType">
+ <option>AUTO</option>
+ <option>HOME</option>
+ 
+ </select><br><br>
+ <input type="submit" value="Submit">
+ 
+
+</form>
+</body>
+</html>
